@@ -1,0 +1,81 @@
+td {
+    text-align: center;
+  }
+  
+td.number {
+    text-align: right;
+  }
+
+tfoot {
+    font-weight: bold;
+  }
+
+  th {
+    background-color: rgb(180, 3, 3);
+  }
+
+  td, th {
+    border: 1px solid rgb(7, 114, 201);
+    padding: 10px 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(230, 195, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #0159c5;
+	color: #b8df0c;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #0c0101;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #0c73da;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #8b8902;
+}
+
+table tfoot {
+    background-color:#54585d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
