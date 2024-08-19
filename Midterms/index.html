@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medals Table</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
     <style type="text/css">
         .right {
           text-align: right;
@@ -12,7 +13,7 @@
       </style>
 </head>
 <body>
-    <table border="1" id="table">
+    <table class="pure-table pure-table-bordered">
         <thead>
             <tr>
                 <th colspan="2">Country</th>
@@ -30,7 +31,7 @@
                 <td class="right">210</td>
                 <td class="right">547</td>
             </tr>
-            <tr>
+            <tr class="pure-table-odd">
                 <td colspan="2">China</td>
                 <td class="right">263</td>
                 <td class="right">199</td>
@@ -44,7 +45,7 @@
                 <td class="right">277</td>
                 <td class="right">751</td>
             </tr>
-            <tr>
+            <tr class="pure-table-odd">
                 <td colspan="2">Germany</td>
                 <td class="right">201</td>
                 <td class="right">207</td>
@@ -58,7 +59,7 @@
                 <td class="right">314</td>
                 <td class="right">916</td>
             </tr>
-            <tr>
+            <tr class="pure-table-odd">
                 <td colspan="2">Hungary</td>
                 <td class="right">181</td>
                 <td class="right">154</td>
@@ -72,7 +73,7 @@
                 <td class="right">213</td>
                 <td class="right">618</td>
             </tr>
-            <tr>
+            <tr class="pure-table-odd">
                 <td colspan="2">Soviet Union</td>
                 <td class="right">395</td>
                 <td class="right">319</td>
@@ -86,7 +87,7 @@
                 <td class="right">179</td>
                 <td class="right">503</td>
             </tr>
-            <tr>
+            <tr class="pure-table-odd">
                 <td colspan="2">United States of America</td>
                 <td class="right">1,061</td>
                 <td class="right">830</td>
@@ -107,16 +108,16 @@
 
         <div class="form-container">
             <h2>Athlete Registration Form</h2>
-            <form action="#" method="post">
-                <div class="form-group">
+            <form class="pure-form pure-form-stacked" action="#" method="post">
+                <div class="pure-control-group">
                     <label for="first-name">First Name:</label>
                     <input type="text" id="first-name" name="first-name" required>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="last-name">Last Name:</label>
                     <input type="text" id="last-name" name="last-name" required>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="country">Country:</label>
                     <select id="country" name="country" required>
                         <option value="">Select Country</option>
@@ -126,7 +127,7 @@
                         <option value="Australia">Australia</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="sport">Sport:</label>
                     <select id="sport" name="sport" required>
                         <option value="">Select Sport</option>
@@ -135,7 +136,7 @@
                         <option value="Pole Vaulting">Pole Vaulting</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label>Gender:</label>
                     <div>
                         <input type="radio" id="male" name="gender" value="Male" required>
@@ -146,19 +147,19 @@
                         <label for="female">Female</label>
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="gold-medals">Gold Medals:</label>
                     <input type="number" id="gold-medals" name="gold-medals" required>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="silver-medals">Silver Medals:</label>
                     <input type="number" id="silver-medals" name="silver-medals" required>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <label for="bronze-medals">Bronze Medals:</label>
                     <input type="number" id="bronze-medals" name="bronze-medals" required>
                 </div>
-                <div class="form-group">
+                <div class="pure-control-group">
                     <button type="submit">Submit</button>
                 </div>
             </form>
